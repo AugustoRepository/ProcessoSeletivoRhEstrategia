@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Presentation layer", "1-Presentation layer", "{82261221-8882-4092-9933-A5DCBD89904C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Repositories layer", "2-Repositories layer", "{38A86F15-8BE3-4417-86A9-94B57472C8B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessoSeletivo.Presentation", "ProcessoSeletivo.Presentation\ProcessoSeletivo.Presentation.csproj", "{D638A888-0E02-4559-B801-7058F305BA40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessoSeletivoRhEstrategia.Repository", "ProcessoSeletivoRhEstrategia.Repository\ProcessoSeletivoRhEstrategia.Repository.csproj", "{12884A92-0854-48A6-A3A5-EA13C2E84922}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D638A888-0E02-4559-B801-7058F305BA40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D638A888-0E02-4559-B801-7058F305BA40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D638A888-0E02-4559-B801-7058F305BA40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D638A888-0E02-4559-B801-7058F305BA40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12884A92-0854-48A6-A3A5-EA13C2E84922}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12884A92-0854-48A6-A3A5-EA13C2E84922}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12884A92-0854-48A6-A3A5-EA13C2E84922}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12884A92-0854-48A6-A3A5-EA13C2E84922}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D638A888-0E02-4559-B801-7058F305BA40} = {82261221-8882-4092-9933-A5DCBD89904C}
+		{12884A92-0854-48A6-A3A5-EA13C2E84922} = {38A86F15-8BE3-4417-86A9-94B57472C8B7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {72B7A65F-D318-4FA3-89F7-406909CF587F}
+	EndGlobalSection
+EndGlobal
